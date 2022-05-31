@@ -9,11 +9,11 @@ const App = () => {
     <>
       <Clock 
         location="New York"
-        offset={-5}
+        offset={-4}
       />
       <Clock 
         location="Kyiv"
-        offset={2}
+        offset={3}
       />
       <Clock 
         location="London"
