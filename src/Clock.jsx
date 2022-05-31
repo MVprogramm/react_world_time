@@ -13,7 +13,7 @@ class Clock extends Component {
       location: props.location,
     };
 
-    // IT'S BAD PRACTICE TO NEST A FUNCTION IN A CONSTRUCTOR
+    // IT'S THE BAD PRACTICE TO NEST A FUNCTION IN A CONSTRUCTOR
     setInterval(
       () => {
         this.setState({
